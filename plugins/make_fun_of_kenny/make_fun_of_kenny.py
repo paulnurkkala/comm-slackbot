@@ -3,7 +3,7 @@ from random import randrange
 kenny       = 'U040QC43H'
 #kenny       = 'U040NP71B' #really paul
 irc_channel = 'C040NNZHT'
-response_interval = 7
+response_interval = 20
 
 def process_message(data):
     user = data.get('user')
