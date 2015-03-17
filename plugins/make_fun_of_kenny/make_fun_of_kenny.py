@@ -41,6 +41,6 @@ def say_insult():
 
     #if the modulus is zero
     if not do_say: 
-        active_insult = "@lastnamefirst %s " % active_insult
+        active_insult = "`@lastnamefirst %s `" % active_insult
 
         outputs.append([irc_channel, active_insult])

@@ -1,2 +1,2 @@
-def process_message(data):
+def catch_all(data):
 	print data

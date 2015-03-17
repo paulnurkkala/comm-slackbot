@@ -6,4 +6,4 @@ def process_message(data):
     message_text = data.get('text')
     if message_text:
         if(bot_user in message_text) and ('test' in message_text):
-            outputs.append([irc_channel, 'huh?'])
+            outputs.append([irc_channel, '`huh?`'])
